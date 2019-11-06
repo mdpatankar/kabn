@@ -1,0 +1,9 @@
+{
+"contextRoot": "",
+"internalPort": "",
+"healthCheck": "",
+"isHttps": false,
+"ignoredPaths": [
+""
+]
+}
