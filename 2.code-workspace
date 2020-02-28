@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"name": "appsody_sample_nodejs-express",
+			"path": "."
+		}
+	],
+	"launch": {
+		"configurations": [
+			{
+				"name": "Appsody: Attach node debugger",
+				"type": "node",
+				"request": "attach",
+				"port": 9229,
+				"remoteRoot": "/project/user-app",
+				"localRoot": "${workspaceFolder}",
+				"protocol": "inspector"
+			},
+			{
+				"type": "node",
+				"name": "Debug appsody_sample_nodejs-express",
+				"request": "attach",
+				"address": "127.0.0.1",
+				"localRoot": "/Users/apple/Documents/2020/Q1/HCL/HCLDEMO/kab/appsody_sample_nodejs-express",
+				"remoteRoot": "/project/user-app",
+				"restart": true
+			}
+		]
+	}
+}
