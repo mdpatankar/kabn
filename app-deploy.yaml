@@ -2,7 +2,7 @@ apiVersion: appsody.dev/v1beta1
 kind: AppsodyApplication
 metadata:
   name: appsody-sample-nodejs-express
-  namespace: kabanero
+  namespace: kabanero-samples
 spec:
   # Add fields here
   version: 1.0.0
